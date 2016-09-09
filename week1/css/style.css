@@ -13,7 +13,7 @@ body{position:absolute;left:350px;}
 .main .left{width:583px;height:400px;float:left;}
 .main .left .four{width:275px;height:175px;margin:5px;
 				  float:left;}
-//.main .left .four #btn1{float:left;margin:-5px;}
+
 .main .left .four ul{display:block;padding:3px;}
 .main .left .four ul li{list-style-type:none;margin:2px;display:block;}				  
 .main .left .four a{font-size:12px;line-height:15px;list-style-type:none;}
