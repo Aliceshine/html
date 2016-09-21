@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"  charset="utf-8"/>
+<title></title>
+
+
+<link rel="stylesheet"  type="text/css"  href="E:/week2/week22/css/style.css">
+
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+
+
+
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="header">
+	<div class="header-left">
+		<img src="http://chem.yangtzeu.edu.cn/Templets/styles/images/yangtzeu-logo.jpg"  class="img-responsive" alt="Responsive image"/>
+	</div>
+	<p>化学与环境工程学院</p>
+	<small>College of Chemistry & Environmental Engineering</small>
+	<div id="header-right">
+	<img src="http://chem.yangtzeu.edu.cn/Templets/styles/images/stone.jpg" class="img-responsive" alt="Responsive image" />
+	</div>
+</div>
+
+ 
+
+<div class="dropdown navbar-fixed-top">
+  <button class="btn btn-default dropdown-toggle btn-group-*" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    
+    <span class="glyphicon glyphicon-th-list"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">主　页</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">学院概况</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">系部设置</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">本科教育</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">研究生教育</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">科学研究</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">平台建设</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">教师队伍</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">学生工作</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">校友风采</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">对外交流</a></li>
+	
+  </ul>
+</div>
+
+
+
+
+
+<div class="head">
+	<ul>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>主　页</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>学院概况</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>系部设置</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>本科教育</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>研究生教育</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>科学研究</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>平台建设</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>教师队伍</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>学生工作</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>校友风采</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>对外交流</li></a>
+	</ul>
+	
+</div>
+
+
+<div class="container">
+<div class="row">
+	<div class="col-md-4">
+		<a href="#"><img src="C:/Users/Administrator/Pictures/11.png "  class="img-responsive" alt="Responsive image"/></a>
+		
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于化工学院2016-2017学年兼职辅导员选聘结果的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于学院拟参加学校2016暑期休养活动人员的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年职称评审学科组评议结果公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2017年研究生招生夏令营活动通知</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于2016年度上岗晋级结果的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于张胜男等23名同志预备党员转正的公示</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+		
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="C:/Users/Administrator/Pictures/30.jpg" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="C:/Users/Administrator/Pictures/31.jpg" alt="Second slide">
+				</div>
+				<div class="item">
+					<img src="C:/Users/Administrator/Pictures/32.jpg" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control left" href="#myCarousel" 
+				data-slide="prev">&lsaquo;
+			</a>
+			<a class="carousel-control right" href="#myCarousel" 
+				data-slide="next">&rsaquo;
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-md-4">
+		<a href="#"><img src="C:/Users/Administrator/Pictures/12.png" class="img-responsive" alt="Responsive image"/></a>
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">我院获批2016年中央财政支持地方高校发展资金资助</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于学院拟参加学校2016暑期休养活动人员的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年职称评审学科组评议结果公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2017年研究生招生夏令营活动通知</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于2016年度上岗晋级结果的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于张胜男等23名同志预备党员转正的公示</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row">
+	<div class="col-md-4">
+		<a href="#"><img src="C:/Users/Administrator/Pictures/13.png " class="img-responsive" alt="Responsive image"/></a>
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">我院获批2016年中央财政支持地方高校发展资金资助</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于学院拟参加学校2016暑期休养活动人员的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年职称评审学科组评议结果公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2017年研究生招生夏令营活动通知</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于2016年度上岗晋级结果的公示</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<a href="#"><img src="C:/Users/Administrator/Pictures/14.png " class="img-responsive" alt="Responsive image"/></a>
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">我院获批2016年中央财政支持地方高校发展资金资助</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于学院拟参加学校2016暑期休养活动人员的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年职称评审学科组评议结果公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2017年研究生招生夏令营活动通知</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于2016年度上岗晋级结果的公示</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<a href="#"><img src="C:/Users/Administrator/Pictures/15.png " class="img-responsive" alt="Responsive image"/></a>
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">我院获批2016年中央财政支持地方高校发展资金资助</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于学院拟参加学校2016暑期休养活动人员的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年职称评审学科组评议结果公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2017年研究生招生夏令营活动通知</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于2016年度上岗晋级结果的公示</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+ 
+<div class="container">
+<div class="row">
+	<div class="col-md-4">
+		<h2>学生</h2>
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">应化13级召开“大学生如何进行科研暨导师见面会”主题班会</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2015级班级“1+X”导师制正式启动</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年上半年寝室文化节活动成功举办</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院企业导师进校园暨就业专题培训讲座（二）</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院师生运动友谊赛圆满落幕</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<h2>学者</h2>
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">我院获批2016年中央财政支持地方高校发展资金资助</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于学院拟参加学校2016暑期休养活动人员的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年职称评审学科组评议结果公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院企业导师进校园暨就业专题培训讲座（二）</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于2016年度上岗晋级结果的公示</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<h2>学术</h2>
+		<ul>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">我院获批2016年中央财政支持地方高校发展资金资助</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于学院拟参加学校2016暑期休养活动人员的公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2016年职称评审学科组评议结果公示</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">化工学院2017年研究生招生夏令营活动通知</a></li>
+			<li><a href="http://sjc.yangtzeu.edu.cn/">关于2016年度上岗晋级结果的公示</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<div class="container">
+<div class="bottom">
+	<ul>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>主　页</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>学院概况</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>系部设置</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>本科教育</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>研究生教育</li></a>
+		<a href="http://chem.yangtzeu.edu.cn/"><li>科学研究</li></a>
+	</ul>
+</div>
+</div>
+	
+<div>
+	<div id="w-left">
+	<p class="text-center">地址：荆州市荆州区南环路1号长江大学东校区</p>
+	<p class="text-center">电话：07168060650 </p>
+	<p class="text-center">邮编：434023 </p>
+	<p class="text-center">技术支持：长大在线信息传媒</p>
+	</div>
+	
+	<div id="w-r">
+		<h4>官方微博</h4>
+		<img src="http://www.yangtzeu.edu.cn/images/ewm_wb.jpg" class="img-responsive" alt="Responsive image"/>
+	</div>
+	<div id="w-r">
+		<h4>官方应用</h4>
+		<img src="http://www.yangtzeu.edu.cn/images/ewm_app.jpg" class="img-responsive" alt="Responsive image"/>
+	</div>
+	<div id="w-r">
+		<h4>官方微信</h4>
+		<img src="http://www.yangtzeu.edu.cn/images/ewm_wx.jpg" class="img-responsive" alt="Responsive image"/>
+	</div>
+	
+</div>
+
+
+</body>
+
+</html>
