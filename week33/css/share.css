@@ -17,6 +17,7 @@ a:hover{color:#39c;text-decoration:underline;}
 
 .main{margin:0 auto;width:780px;height:602px;}
 .main .left{float:left;width:576px;line-height:32px;border:1px  #09c solid; }
+.main .left h4{display:block;border:1px  #09c dashed;padding:0px;margin:0px;}
 .main .left ul{margin:0;padding:0;display:block;}
 .main .left ul li{display:block;margin:0;}
 .main  .right .two{float:right;width:200px;line-height:20px;border:1px gray solid;}
