@@ -3,9 +3,9 @@
 		
         var oDiv=document.getElementById('div1');
 		var imgsrc= new Array();
-        imgsrc[0]="http://sjc.yangtzeu.edu.cn/Files/images/IMG_3370.JPG";
-        imgsrc[1]="http://sjc.yangtzeu.edu.cn/Files/images/IMG_3340.JPG";
-        imgsrc[2]="http://sjc.yangtzeu.edu.cn/Files/images/IMG_3331.JPG";
+        imgsrc[0]="images/timg.jpg";
+        imgsrc[1]="images/timg2.jpg";
+        imgsrc[2]="images/timg.jpg";
 	    var i=0;
 		var timer=null;
 		oDiv.onmouseout=function()
